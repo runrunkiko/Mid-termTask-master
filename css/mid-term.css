@@ -221,7 +221,7 @@ header .top-button-wrap:hover .right-icon{
     height: 306px;
     background: #FFFFFF;
     border: 3px solid #707070;
-    margin-top: 119px;
+    margin-top: 110px;
     margin-left: 65px;
     box-shadow: 70px 55px rgba(234, 158, 94, 0.8);
 }
@@ -280,7 +280,7 @@ header .top-button-wrap:hover .right-icon{
 .reason_list .box2 p{
     font-size: 20px;
     color: #5D5C5C;
-    line-height: 1.7;
+    line-height: 1.5;
     padding: 0 0 0 120px;
 }
 
@@ -851,7 +851,8 @@ header .top-button-wrap:hover .right-icon{
 
 /* 大カテゴリ（OTHER-その他イベント) */
 .gradient-box4{
-    width: 553px;
+    width: 46%;
+    /* width: 553px; */
     height: 3px;
     background: transparent linear-gradient(323deg, #FAA55DCC 0%, #A816E2CC 100%, #A512E6 100%) 0% 0% no-repeat padding-box;
     transform: matrix(-1, 0, 0, -1, 0, 0);
@@ -859,7 +860,8 @@ header .top-button-wrap:hover .right-icon{
 }
 
 .other-area .ttl-wrap{
-    width: 1200px;
+    width: 96%;
+    /* width: 1200px; */
     display: flex;
     align-items: center;
     margin-top: 183px;
@@ -875,7 +877,9 @@ header .top-button-wrap:hover .right-icon{
 }
 
 .other-area .ttl-wrap .sub-ttl{
-    font-size: 30px;
+    width: 208px;
+    /* font-size: 30px; */
+    font-size: 2.5vw;
     font-weight: bold;
     color: #707070;
     opacity: 0.8;
@@ -1061,6 +1065,11 @@ footer{
 }
 
 
+@media (min-width: 1080px){
+    .other-area .ttl-wrap .sub-ttl{
+        font-size: 28px;
+    }
+}
 @media (max-width: 767px){
     .flow-area .flow-note{
         font-size: 18px;
